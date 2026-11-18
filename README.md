@@ -48,7 +48,7 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 
 <div align="center">
 
-`clear course` · `visual diagrams` · `quiz after each chapter` · `timed mock exams` · `corrected answers` · `mobile-ready` · `free`
+`clear course` · `visual diagrams` · `quiz after each chapter` · `timed mock exams` · `corrected answers` · `Ctrl+K search` · `who is online` · `3D sidebar` · `mobile-ready` · `free` · `hosted on Vercel`
 
 </div>
 
