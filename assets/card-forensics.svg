@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 230" width="580" height="230" role="img" aria-label="Digital Forensics">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="580" height="230" rx="20"/></clipPath></defs>
+<style>
+.t{font:800 28px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff;letter-spacing:-.5px}.s{font:600 14.5px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#cbd5e1}
+.li{font:500 14.5px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e2e8f0}.ic{font:700 30px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff}
+.go{font:700 13px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#16a34a}
+.shine{animation:sh 4.5s ease-in-out infinite}@keyframes sh{from{transform:translateX(-600px)}60%,to{transform:translateX(640px)}}
+.dot{animation:p 2s ease-in-out infinite}@keyframes p{50%{opacity:.3}}
+</style>
+<g clip-path="url(#c)">
+<rect width="580" height="230" fill="#0b1324"/>
+<circle cx="560" cy="-10" r="170" fill="url(#g)" opacity=".22"/>
+<rect width="580" height="5" fill="url(#g)"/>
+<rect x="28" y="28" width="52" height="52" rx="14" fill="url(#g)"/><text x="54" y="65" text-anchor="middle" class="ic">⌕</text>
+<text x="96" y="55" class="t">Digital Forensics</text><text x="97" y="78" class="s">Digital Forensics &amp; Incident Response</text>
+<text x="34" y="122" class="li">▸ 8 modules · chain of custody · disks</text><text x="34" y="149" class="li">▸ Windows &amp; Linux artifacts · DFIR</text><text x="34" y="176" class="li">▸ 4 investigation case studies</text>
+<rect x="390" y="188" width="160" height="28" rx="14" fill="#fff" opacity=".96"/><text x="470" y="207" text-anchor="middle" class="go">OPEN PLATFORM →</text>
+<circle cx="548" cy="30" r="5" fill="#4ade80" class="dot"/><text x="538" y="34" text-anchor="end" style="font:600 11px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#86efac">LIVE</text>
+<rect class="shine" x="0" y="0" width="200" height="230" fill="url(#sh)" transform="skewX(-20)"/>
+</g>
+<rect x="1" y="1" width="578" height="228" rx="19" fill="none" stroke="#1e2d48" stroke-width="2"/>
+</svg>

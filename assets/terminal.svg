@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Skills">
+<defs><clipPath id="c"><rect width="1200" height="340" rx="18"/></clipPath></defs>
+<style>
+.p{font:600 17px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#22d3ee}.k{fill:#e2e8f0}.f{fill:#a78bfa}.v{font:500 16.5px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#cbd5e1}
+.h{font:600 13px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#64748b}
+.ln{opacity:0;animation:in .45s ease forwards}@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+</style>
+<g clip-path="url(#c)"><rect width="1200" height="340" fill="#070d19"/><rect width="1200" height="44" fill="#0f1a2e"/>
+<circle cx="28" cy="22" r="7" fill="#ef4444"/><circle cx="50" cy="22" r="7" fill="#f59e0b"/><circle cx="72" cy="22" r="7" fill="#22c55e"/>
+<text x="600" y="27" text-anchor="middle" class="h">essid@security-lab: ~/skills</text>
+<g class="ln" style="animation-delay:0.60s"><text x="40" y="108" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--cloud</tspan></text><text x="300" y="108" class="v">IAM · Zero Trust · VPC / SG / NACL · AWS · Azure · CSA top threats</text></g><g class="ln" style="animation-delay:1.15s"><text x="40" y="148" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--dfir</tspan></text><text x="300" y="148" class="v">Evidence acquisition · Autopsy / TSK · Volatility · Windows &amp; Linux</text></g><g class="ln" style="animation-delay:1.70s"><text x="40" y="188" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--grc</tspan></text><text x="300" y="188" class="v">ISO 27001 / 27005 · risk assessment · SoA · audit · NIST RMF</text></g><g class="ln" style="animation-delay:2.25s"><text x="40" y="228" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--soc</tspan></text><text x="300" y="228" class="v">SIEM · Sigma · YARA · incident response (PICERL)</text></g><g class="ln" style="animation-delay:2.80s"><text x="40" y="268" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--build</tspan></text><text x="300" y="268" class="v">Python · JavaScript · HTML / CSS · Git · Linux</text></g>
+<text x="40" y="318" class="p">➜ <tspan class="cur">▌</tspan></text></g>
+<rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#1e2d48" stroke-width="2"/>
+</svg>
