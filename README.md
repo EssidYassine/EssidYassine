@@ -35,15 +35,15 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 ### `> ls ./more-study-tools`
 
 <p align="center">
-<a href="https://essidyassine.github.io/RevisionAppIam/"><img src="assets/mini-iam.svg" width="32%" alt="IAM revision"></a>
-<a href="https://essidyassine.github.io/QUIZCYBEROPS/"><img src="assets/mini-cyberops.svg" width="32%" alt="CyberOps quiz"></a>
-<a href="https://essidyassine.github.io/QUIZCCNAYASSINE/"><img src="assets/mini-ccna.svg" width="32%" alt="CCNA Security quiz"></a>
-<a href="https://essidyassine.github.io/SPRING/"><img src="assets/mini-spring.svg" width="32%" alt="Spring Boot revision"></a>
-<a href="https://essidyassine.github.io/DOTNET/"><img src="assets/mini-dotnet.svg" width="32%" alt=".NET / C# course"></a>
-<a href="https://essidyassine.github.io/TIE/"><img src="assets/mini-tie.svg" width="32%" alt="TIE exam simulator"></a>
-<a href="https://essidyassine.github.io/DROIT/"><img src="assets/mini-droit.svg" width="32%" alt="Intellectual property law"></a>
-<a href="https://essidyassine.github.io/AnglaisRevision/"><img src="assets/mini-anglais.svg" width="32%" alt="English CCCA4"></a>
-<a href="https://essidyassine.github.io/QuizGProjet/"><img src="assets/mini-gprojet.svg" width="32%" alt="Project management quiz"></a>
+<a href="https://revisionappiam.vercel.app"><img src="assets/mini-iam.svg" width="32%" alt="IAM revision"></a>
+<a href="https://quizcyberops.vercel.app"><img src="assets/mini-cyberops.svg" width="32%" alt="CyberOps quiz"></a>
+<a href="https://quizccnayassine.vercel.app"><img src="assets/mini-ccna.svg" width="32%" alt="CCNA Security quiz"></a>
+<a href="https://spring-flax.vercel.app"><img src="assets/mini-spring.svg" width="32%" alt="Spring Boot revision"></a>
+<a href="https://dotnet-zeta-ten.vercel.app"><img src="assets/mini-dotnet.svg" width="32%" alt=".NET / C# course"></a>
+<a href="https://tie-seven.vercel.app"><img src="assets/mini-tie.svg" width="32%" alt="TIE exam simulator"></a>
+<a href="https://droit-virid.vercel.app"><img src="assets/mini-droit.svg" width="32%" alt="Intellectual property law"></a>
+<a href="https://anglaisrevision.vercel.app"><img src="assets/mini-anglais.svg" width="32%" alt="English CCCA4"></a>
+<a href="https://quizgprojet.vercel.app"><img src="assets/mini-gprojet.svg" width="32%" alt="Project management quiz"></a>
 </p>
 
 <div align="center">
