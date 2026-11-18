@@ -2,7 +2,7 @@
 
 # Hi, I'm Essid Yassine 👋
 
-**Cybersecurity engineering student · Builder of free revision platforms for students**
+**Final-year cybersecurity engineering student · Creator of free revision platforms for students**
 
 *I turn hard courses into clear, interactive websites — so nobody walks into an exam unprepared.*
 
@@ -12,7 +12,7 @@
 
 ## 🎯 What I do
 
-I'm a 5th-year **Network & Information Security (NIDS)** engineering student. Alongside my studies I build and publish:
+I'm a **final-year Network & Information Security (NIDS) engineering student**. Alongside my studies I build and publish:
 
 - 📚 **Free exam-revision websites** — full courses rewritten clearly, diagrams, a quiz after every chapter, past papers with model answers, timed mock exams and flashcards. One file, works on phone and laptop, no sign-up.
 - 🛡️ **Academic cybersecurity projects** — cloud security, digital forensics, ISO 27001 / GRC, SOC and detection engineering.
