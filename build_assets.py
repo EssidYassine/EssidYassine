@@ -91,6 +91,34 @@ for key, icon, title, sub, lines, c1, c2 in cards:
 <rect x="1" y="1" width="578" height="228" rx="19" fill="none" stroke="#1e2d48" stroke-width="2"/>
 </svg>''')
 
+# ---------- 2b. mini cards: more study tools ----------
+minis = [
+    ("iam", "⚿", "IAM", "Identity &amp; Access Management", "OAuth · SAML · access control", "#0891b2", "#22d3ee"),
+    ("cyberops", "⛨", "CyberOps Quiz", "CCNA Security / CyberOps", "~200 illustrated questions", "#dc2626", "#f97316"),
+    ("ccna", "⛭", "CCNA Security", "Cisco ASA · IPS · VPN", "Illustrated certification quiz", "#2563eb", "#06b6d4"),
+    ("spring", "❀", "Spring Boot", "DI · REST · JPA", "Interactive course + MCQ", "#16a34a", "#84cc16"),
+    ("dotnet", "◆", ".NET / C#", "Information Systems Architecture", "Chapter-by-chapter course", "#7c3aed", "#a855f7"),
+    ("tie", "∑", "TIE", "Probability &amp; Statistics", "Exam simulator with score", "#0d9488", "#22d3ee"),
+    ("droit", "⚖", "Droit DPI", "Intellectual Property Law", "Summaries · tips · MCQ", "#b45309", "#facc15"),
+    ("anglais", "✧", "English CCCA4", "Grammar &amp; exercises", "Self-correcting practice", "#db2777", "#f472b6"),
+    ("gprojet", "▤", "Project Management", "Management de projet", "Scored MCQ quiz", "#4f46e5", "#818cf8"),
+]
+for key, icon, title, sub, line, c1, c2 in minis:
+    save(f"mini-{key}.svg", f'''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="380" height="150" role="img" aria-label="{title}">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="380" height="150" rx="16"/></clipPath></defs>
+<style>.t{{font:800 21px {SANS};fill:#fff}}.s{{font:600 12.5px {SANS};fill:#cbd5e1}}.l{{font:500 13px {SANS};fill:#e2e8f0}}.ic{{font:700 22px {SANS};fill:#fff}}
+.go{{font:700 11px {MONO};fill:{c2}}}.shine{{animation:sh 5s ease-in-out infinite}}@keyframes sh{{from{{transform:translateX(-400px)}}60%,to{{transform:translateX(460px)}}}}</style>
+<g clip-path="url(#c)"><rect width="380" height="150" fill="#0b1324"/><circle cx="370" cy="-10" r="110" fill="url(#g)" opacity=".2"/><rect width="380" height="4" fill="url(#g)"/>
+<rect x="20" y="22" width="40" height="40" rx="11" fill="url(#g)"/><text x="40" y="50" text-anchor="middle" class="ic">{icon}</text>
+<text x="72" y="40" class="t">{title}</text><text x="73" y="59" class="s">{sub}</text>
+<text x="22" y="98" class="l">▸ {line}</text><text x="22" y="128" class="go">OPEN →</text>
+<rect class="shine" width="140" height="150" fill="url(#sh)" transform="skewX(-20)"/></g>
+<rect x="1" y="1" width="378" height="148" rx="15" fill="none" stroke="#1e2d48" stroke-width="2"/>
+</svg>''')
+
 # ---------- 3. terminal: skills ----------
 rows = [("cloud", "IAM · Zero Trust · VPC / SG / NACL · AWS · Azure · CSA top threats"),
         ("dfir", "Evidence acquisition · Autopsy / TSK · Volatility · Windows &amp; Linux"),

@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://essidyassine.github.io/CloudSec/"><img src="https://img.shields.io/badge/5_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="5 live platforms"></a>
+<a href="https://essidyassine.github.io/CloudSec/"><img src="https://img.shields.io/badge/14_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="14 live platforms"></a>
 <img src="https://img.shields.io/badge/400%2B_QUIZ_QUESTIONS-0b1324?style=for-the-badge&logo=target&logoColor=818cf8" alt="400+ quiz questions">
 <img src="https://img.shields.io/badge/100%25_FREE_FOR_STUDENTS-0b1324?style=for-the-badge&logo=bookstack&logoColor=4ade80" alt="100% free">
 
@@ -29,6 +29,20 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 <a href="https://essidyassine.github.io/ISO27001/"><img src="assets/card-iso.svg" width="49%" alt="ISO 27001"></a>
 <a href="https://essidyassine.github.io/CPA-English/"><img src="assets/card-english.svg" width="49%" alt="CPA English"></a>
 <a href="https://essidyassine.github.io/CPF-Francais/"><img src="assets/card-francais.svg" width="49%" alt="CPF Français"></a>
+</p>
+
+### `> ls ./more-study-tools`
+
+<p align="center">
+<a href="https://essidyassine.github.io/RevisionAppIam/"><img src="assets/mini-iam.svg" width="32%" alt="IAM revision"></a>
+<a href="https://essidyassine.github.io/QUIZCYBEROPS/"><img src="assets/mini-cyberops.svg" width="32%" alt="CyberOps quiz"></a>
+<a href="https://essidyassine.github.io/QUIZCCNAYASSINE/"><img src="assets/mini-ccna.svg" width="32%" alt="CCNA Security quiz"></a>
+<a href="https://essidyassine.github.io/SPRING/"><img src="assets/mini-spring.svg" width="32%" alt="Spring Boot revision"></a>
+<a href="https://essidyassine.github.io/DOTNET/"><img src="assets/mini-dotnet.svg" width="32%" alt=".NET / C# course"></a>
+<a href="https://essidyassine.github.io/TIE/"><img src="assets/mini-tie.svg" width="32%" alt="TIE exam simulator"></a>
+<a href="https://essidyassine.github.io/DROIT/"><img src="assets/mini-droit.svg" width="32%" alt="Intellectual property law"></a>
+<a href="https://essidyassine.github.io/AnglaisRevision/"><img src="assets/mini-anglais.svg" width="32%" alt="English CCCA4"></a>
+<a href="https://essidyassine.github.io/QuizGProjet/"><img src="assets/mini-gprojet.svg" width="32%" alt="Project management quiz"></a>
 </p>
 
 <div align="center">
