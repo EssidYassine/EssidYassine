@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://essidyassine.github.io/CloudSec/"><img src="https://img.shields.io/badge/14_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="14 live platforms"></a>
+<a href="https://essidyassine.github.io/CloudSec/"><img src="https://img.shields.io/badge/15_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="15 live platforms"></a>
 <img src="https://img.shields.io/badge/400%2B_QUIZ_QUESTIONS-0b1324?style=for-the-badge&logo=target&logoColor=818cf8" alt="400+ quiz questions">
 <img src="https://img.shields.io/badge/100%25_FREE_FOR_STUDENTS-0b1324?style=for-the-badge&logo=bookstack&logoColor=4ade80" alt="100% free">
 
@@ -24,6 +24,7 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 ### `> ls ./platforms`
 
 <p align="center">
+<a href="https://essidyassine.github.io/NSE4-FortiGate/"><img src="assets/card-nse4.svg" width="49%" alt="NSE4 FortiGate 7.2"></a>
 <a href="https://essidyassine.github.io/CloudSec/"><img src="assets/card-cloudsec.svg" width="49%" alt="CloudSec"></a>
 <a href="https://essidyassine.github.io/DigitalForensics/"><img src="assets/card-forensics.svg" width="49%" alt="Digital Forensics"></a>
 <a href="https://essidyassine.github.io/ISO27001/"><img src="assets/card-iso.svg" width="49%" alt="ISO 27001"></a>

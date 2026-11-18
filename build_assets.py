@@ -57,6 +57,7 @@ save("banner.svg", f'''
 
 # ---------- 2. platform cards ----------
 cards = [
+    ("nse4", "⛨", "NSE4 FortiGate 7.2", "Fortinet certification exam prep", ["19 chapters · Security + Infrastructure", "214 original questions · random quizzes", "40-question timed exam simulation /20"], "#da291c", "#f97316"),
     ("cloudsec", "☁", "CloudSec", "Cloud Architecture &amp; Security", ["11 chapters · 3D diagrams · charts", "132 chapter-quiz questions", "7 exams with model answers"], "#0891b2", "#6366f1"),
     ("forensics", "⌕", "Digital Forensics", "Digital Forensics &amp; Incident Response", ["8 modules · chain of custody · disks", "Windows &amp; Linux artifacts · DFIR", "4 investigation case studies"], "#16a34a", "#a3e635"),
     ("iso", "◈", "ISO 27001", "ISMS Management &amp; Certification Audit", ["Risk assessment · SoA · Annex A 2022", "2020 &amp; 2025 exams corrected", "3 exam-style case studies"], "#b7860b", "#1d4ed8"),
