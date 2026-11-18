@@ -53,6 +53,32 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+### `> ls ./projects --security`
+
+<p align="center">
+<a href="https://banking-cti.vercel.app"><img src="assets/proj-banking-cti.svg" width="49%" alt="Banking CTI"></a>
+<img src="assets/proj-sigashield.svg" width="49%" alt="SigaShield">
+<img src="assets/proj-sigaredteam.svg" width="49%" alt="SigaRedTeam">
+<a href="https://github.com/EssidYassine/PersoDash/releases/latest"><img src="assets/proj-persodash.svg" width="49%" alt="PersoDash"></a>
+<a href="https://github.com/EssidYassine/BingoTrap"><img src="assets/proj-bingotrap.svg" width="49%" alt="BingoTrap"></a>
+<a href="https://forum-qr.vercel.app"><img src="assets/proj-forumqr.svg" width="49%" alt="Forum QR"></a>
+</p>
+
+### `> ls ./projects --engineering`
+
+<p align="center">
+<a href="https://github.com/EssidYassine/EventPlanner-Symfony"><img src="assets/proj-eventus.svg" width="49%" alt="Eventus"></a>
+<a href="https://github.com/EssidYassine/EventPlanner-C-QT"><img src="assets/proj-eventqt.svg" width="49%" alt="EventPlanner Qt"></a>
+<a href="https://github.com/EssidYassine/School-Management-MEAN"><img src="assets/proj-mean.svg" width="49%" alt="MEAN apps"></a>
+<img src="assets/proj-springjenkins.svg" width="49%" alt="Spring x Jenkins">
+<img src="assets/proj-prestige.svg" width="49%" alt="Prestige Auto">
+<a href="https://maison-de-cafe.vercel.app"><img src="assets/proj-maisoncafe.svg" width="49%" alt="Maison de Cafe"></a>
+</p>
+
+<div align="center"><sub>🔒 <b>PRIVATE</b> = source available on request · 🟢 <b>LIVE</b> = online demo · 🟡 <b>OPEN SOURCE</b> = public repository</sub></div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ### `> cat skills.txt`
 
 <img src="assets/terminal.svg" width="100%" alt="Cloud security, DFIR, GRC, SOC and development skills">

@@ -119,6 +119,52 @@ for key, icon, title, sub, line, c1, c2 in minis:
 <rect x="1" y="1" width="378" height="148" rx="15" fill="none" stroke="#1e2d48" stroke-width="2"/>
 </svg>''')
 
+# ---------- 2c. project cards ----------
+# (key, icon, title, one-line pitch, detail line, tags, status, c1, c2)
+projects = [
+    ("banking-cti", "◉", "Banking CTI", "Cyber Threat Intelligence for the banking sector", "Collection · correlation · analysis on a simulated SOC", ["CTI", "SOC", "Threat intel"], "LIVE", "#0891b2", "#6366f1"),
+    ("sigashield", "⛨", "SigaShield", "DevSecOps security platform for SIGA", "Secure pipeline · automated scanning · hardening", ["DevSecOps", "CI/CD", "AppSec"], "PRIVATE", "#16a34a", "#22d3ee"),
+    ("sigaredteam", "⚔", "SigaRedTeam", "Autonomous offensive security platform", "Recon · DAST · pentest · purple-team with SigaShield", ["Red Team", "DAST", "Purple Team"], "PRIVATE", "#dc2626", "#f97316"),
+    ("persodash", "✉", "PersoDash", "Your Gmail inbox on the desktop", "Built-in phishing detector · free for Windows 10/11", ["Phishing", "Desktop", "Email"], "RELEASE", "#7c3aed", "#ec4899"),
+    ("bingotrap", "⌖", "BingoTrap", "Honeypot to lure and study attackers", "Captures attacker behaviour for analysis", ["Honeypot", "Deception", "Blue Team"], "OPEN SOURCE", "#b45309", "#facc15"),
+    ("forumqr", "▦", "Forum QR", "Check-in platform · National Cybersecurity Forum 2026", "3D Blender onboarding · 4 profiles · Sheets + Excel · exit validation", ["Vercel", "Google Sheets", "3D"], "LIVE", "#0d9488", "#22d3ee"),
+    ("eventus", "✶", "Eventus", "Event management platform (Symfony 6.4)", "QR booking · Stripe payments · AI chatbot · statistics", ["Symfony", "Stripe", "AI chatbot"], "OPEN SOURCE", "#4f46e5", "#a855f7"),
+    ("eventqt", "◫", "EventPlanner Qt", "Desktop event manager in C++/Qt", "SQL · SMTP e-mails · Arduino IoT · Qt Charts · PDF", ["C++", "Qt", "IoT"], "OPEN SOURCE", "#2563eb", "#06b6d4"),
+    ("mean", "◎", "MEAN Apps", "School &amp; Sport management platforms", "MongoDB · Express · Angular · Node · JWT · role dashboards", ["MEAN", "Angular", "JWT"], "OPEN SOURCE", "#16a34a", "#84cc16"),
+    ("springjenkins", "⚙", "Spring × Jenkins", "Spring Boot with a Jenkins CI/CD pipeline", "Automated builds · Docker containerized deployment", ["Spring", "Jenkins", "Docker"], "PRIVATE", "#c2410c", "#f59e0b"),
+    ("prestige", "◇", "Prestige Auto", "Custom Shopify theme (Dawn v16)", "Three.js 3D hero · intro · transitions · headless QA", ["Shopify", "Three.js", "Liquid"], "PRIVATE", "#db2777", "#8b5cf6"),
+    ("maisoncafe", "☕", "Maison de Café", "Coffee shop website", "Responsive storefront deployed on Vercel", ["Web", "Vercel", "UI"], "LIVE", "#92400e", "#d97706"),
+]
+STATUS = {"LIVE": "#4ade80", "PRIVATE": "#94a3b8", "RELEASE": "#f472b6", "OPEN SOURCE": "#facc15"}
+for key, icon, title, pitch, detail, tags, status, c1, c2 in projects:
+    x, chips = 28, ""
+    for t in tags:
+        w = 18 + len(t) * 7.6
+        chips += f'<rect x="{x:.0f}" y="150" width="{w:.0f}" height="26" rx="13" fill="#ffffff" fill-opacity=".07" stroke="{c2}" stroke-opacity=".55"/><text x="{x + w / 2:.0f}" y="167" text-anchor="middle" class="chip">{t}</text>'
+        x += w + 8
+    sc = STATUS[status]
+    save(f"proj-{key}.svg", f'''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 200" width="580" height="200" role="img" aria-label="{title}">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".05"/></pattern>
+<clipPath id="c"><rect width="580" height="200" rx="18"/></clipPath></defs>
+<style>.t{{font:800 25px {SANS};fill:#fff;letter-spacing:-.4px}}.p{{font:600 14px {SANS};fill:#e2e8f0}}.d{{font:500 13px {SANS};fill:#94a3b8}}
+.chip{{font:600 11.5px {MONO};fill:#e2e8f0}}.ic{{font:700 26px {SANS};fill:#fff}}.st{{font:700 11px {MONO};fill:{sc}}}
+.shine{{animation:sh 5.5s ease-in-out infinite}}@keyframes sh{{from{{transform:translateX(-600px)}}60%,to{{transform:translateX(660px)}}}}
+.dot{{animation:p 2s ease-in-out infinite}}@keyframes p{{50%{{opacity:.3}}}}</style>
+<g clip-path="url(#c)"><rect width="580" height="200" fill="#0a1120"/><rect width="580" height="200" fill="url(#dots)"/>
+<circle cx="600" cy="210" r="160" fill="url(#g)" opacity=".18"/><rect width="5" height="200" fill="url(#g)"/>
+<rect x="28" y="26" width="48" height="48" rx="13" fill="url(#g)"/><text x="52" y="60" text-anchor="middle" class="ic">{icon}</text>
+<text x="92" y="50" class="t">{title}</text>
+<circle cx="{545 - len(status) * 7.4:.0f}" cy="40" r="4.5" fill="{sc}" class="dot"/><text x="556" y="44" text-anchor="end" class="st">{status}</text>
+<text x="92" y="72" class="p">{pitch}</text>
+<text x="28" y="118" class="d">{detail}</text>
+{chips}
+<rect class="shine" width="180" height="200" fill="url(#sh)" transform="skewX(-20)"/></g>
+<rect x="1" y="1" width="578" height="198" rx="17" fill="none" stroke="#1e2d48" stroke-width="2"/>
+</svg>''')
+
 # ---------- 3. terminal: skills ----------
 rows = [("cloud", "IAM · Zero Trust · VPC / SG / NACL · AWS · Azure · CSA top threats"),
         ("dfir", "Evidence acquisition · Autopsy / TSK · Volatility · Windows &amp; Linux"),

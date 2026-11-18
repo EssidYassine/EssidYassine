@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 200" width="580" height="200" role="img" aria-label="MEAN Apps">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#84cc16"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".05"/></pattern>
+<clipPath id="c"><rect width="580" height="200" rx="18"/></clipPath></defs>
+<style>.t{font:800 25px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff;letter-spacing:-.4px}.p{font:600 14px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e2e8f0}.d{font:500 13px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#94a3b8}
+.chip{font:600 11.5px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#e2e8f0}.ic{font:700 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff}.st{font:700 11px 'Cascadia Code','Fira Code',Consolas,'Courier New',monospace;fill:#facc15}
+.shine{animation:sh 5.5s ease-in-out infinite}@keyframes sh{from{transform:translateX(-600px)}60%,to{transform:translateX(660px)}}
+.dot{animation:p 2s ease-in-out infinite}@keyframes p{50%{opacity:.3}}</style>
+<g clip-path="url(#c)"><rect width="580" height="200" fill="#0a1120"/><rect width="580" height="200" fill="url(#dots)"/>
+<circle cx="600" cy="210" r="160" fill="url(#g)" opacity=".18"/><rect width="5" height="200" fill="url(#g)"/>
+<rect x="28" y="26" width="48" height="48" rx="13" fill="url(#g)"/><text x="52" y="60" text-anchor="middle" class="ic">◎</text>
+<text x="92" y="50" class="t">MEAN Apps</text>
+<circle cx="464" cy="40" r="4.5" fill="#facc15" class="dot"/><text x="556" y="44" text-anchor="end" class="st">OPEN SOURCE</text>
+<text x="92" y="72" class="p">School &amp; Sport management platforms</text>
+<text x="28" y="118" class="d">MongoDB · Express · Angular · Node · JWT · role dashboards</text>
+<rect x="28" y="150" width="48" height="26" rx="13" fill="#ffffff" fill-opacity=".07" stroke="#84cc16" stroke-opacity=".55"/><text x="52" y="167" text-anchor="middle" class="chip">MEAN</text><rect x="84" y="150" width="71" height="26" rx="13" fill="#ffffff" fill-opacity=".07" stroke="#84cc16" stroke-opacity=".55"/><text x="120" y="167" text-anchor="middle" class="chip">Angular</text><rect x="164" y="150" width="41" height="26" rx="13" fill="#ffffff" fill-opacity=".07" stroke="#84cc16" stroke-opacity=".55"/><text x="184" y="167" text-anchor="middle" class="chip">JWT</text>
+<rect class="shine" width="180" height="200" fill="url(#sh)" transform="skewX(-20)"/></g>
+<rect x="1" y="1" width="578" height="198" rx="17" fill="none" stroke="#1e2d48" stroke-width="2"/>
+</svg>
