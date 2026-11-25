@@ -83,7 +83,7 @@ I take the hardest modules of my curriculum — cloud security, ethical hacking,
 
 ### `> cat skills.txt`
 
-<img src="assets/terminal.svg" width="100%" alt="Cloud security, DFIR, GRC, SOC and development skills">
+<img src="assets/terminal.svg" width="100%" alt="Cloud security, DFIR, GRC, SOC, DevSecOps, MERN, MEAN, Next.js, Spring Boot and C/C++ skills">
 
 <img src="assets/divider.svg" width="100%" alt="">
 

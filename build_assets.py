@@ -172,27 +172,29 @@ rows = [("cloud", "IAM · Zero Trust · VPC / SG / NACL · AWS · Azure · CSA t
         ("dfir", "Evidence acquisition · Autopsy / TSK · Volatility · Windows &amp; Linux"),
         ("grc", "ISO 27001 / 27005 · risk assessment · SoA · audit · NIST RMF"),
         ("soc", "SIEM · Sigma · YARA · incident response (PICERL)"),
-        ("build", "Python · JavaScript · HTML / CSS · Git · Linux")]
+        ("devsecops", "GitHub Actions · Jenkins · Docker · Snyk · GitGuardian · STRIDE · OWASP Top 10"),
+        ("web", "MERN · MEAN · Next.js / TypeScript · Spring Boot · Symfony · Supabase (RLS)"),
+        ("build", "Python · Java · C / C++ (Qt) · JavaScript · Git · Linux")]
 body = ""
 for i, (k, v) in enumerate(rows):
     y = 108 + i * 40
     d = 0.6 + i * 0.55
     body += f'<g class="ln" style="animation-delay:{d:.2f}s"><text x="40" y="{y}" class="p">➜ <tspan class="k">skills</tspan> <tspan class="f">--{k}</tspan></text><text x="300" y="{y}" class="v">{v}</text></g>'
 save("terminal.svg", f'''
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Skills">
-<defs><clipPath id="c"><rect width="1200" height="340" rx="18"/></clipPath></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Skills">
+<defs><clipPath id="c"><rect width="1200" height="420" rx="18"/></clipPath></defs>
 <style>
 .p{{font:600 17px {MONO};fill:#22d3ee}}.k{{fill:#e2e8f0}}.f{{fill:#a78bfa}}.v{{font:500 16.5px {MONO};fill:#cbd5e1}}
 .h{{font:600 13px {MONO};fill:#64748b}}
 .ln{{opacity:0;animation:in .45s ease forwards}}@keyframes in{{from{{opacity:0;transform:translateX(-8px)}}to{{opacity:1;transform:none}}}}
 .cur{{animation:b 1s steps(1) infinite}}@keyframes b{{50%{{opacity:0}}}}
 </style>
-<g clip-path="url(#c)"><rect width="1200" height="340" fill="#070d19"/><rect width="1200" height="44" fill="#0f1a2e"/>
+<g clip-path="url(#c)"><rect width="1200" height="420" fill="#070d19"/><rect width="1200" height="44" fill="#0f1a2e"/>
 <circle cx="28" cy="22" r="7" fill="#ef4444"/><circle cx="50" cy="22" r="7" fill="#f59e0b"/><circle cx="72" cy="22" r="7" fill="#22c55e"/>
 <text x="600" y="27" text-anchor="middle" class="h">essid@security-lab: ~/skills</text>
 {body}
-<text x="40" y="318" class="p">➜ <tspan class="cur">▌</tspan></text></g>
-<rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#1e2d48" stroke-width="2"/>
+<text x="40" y="398" class="p">➜ <tspan class="cur">▌</tspan></text></g>
+<rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#1e2d48" stroke-width="2"/>
 </svg>''')
 
 # ---------- 4. animated divider ----------
