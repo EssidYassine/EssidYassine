@@ -1,3 +1,5 @@
+<img src="assets/frame-top.svg" width="100%" alt="">
+
 <div align="center">
 
 <img src="assets/banner.svg" width="100%" alt="Essid Yassine — Final-year Cybersecurity Engineer">
@@ -87,6 +89,19 @@ I take the hardest modules of my curriculum — cloud security, ethical hacking,
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+### `> git log --stats`
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=EssidYassine&show_icons=true&hide_border=true&bg_color=0b1324&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&count_private=true&include_all_commits=true" height="170" alt="GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EssidYassine&layout=compact&hide_border=true&bg_color=0b1324&title_color=22d3ee&text_color=cbd5e1&langs_count=8" height="170" alt="Top languages">
+<br>
+<img src="https://streak-stats.demolab.com?user=EssidYassine&hide_border=true&background=0B1324&ring=22D3EE&fire=F97316&currStreakLabel=22D3EE&sideLabels=CBD5E1&dates=64748B&currStreakNum=FFFFFF&sideNums=FFFFFF" width="70%" alt="Contribution streak">
+<br><br>
+<img src="https://raw.githubusercontent.com/EssidYassine/EssidYassine/output/github-snake-dark.svg" width="100%" alt="Contribution snake">
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ### `> contact --help`
 
 | | |
@@ -99,3 +114,5 @@ I take the hardest modules of my curriculum — cloud security, ethical hacking,
 <br>
 <sub><i>Built by a student, for students.</i> 🎓</sub>
 </div>
+
+<img src="assets/frame-bottom.svg" width="100%" alt="">
