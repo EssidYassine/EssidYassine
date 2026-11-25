@@ -170,9 +170,9 @@ for key, icon, title, pitch, detail, tags, status, c1, c2 in projects:
 # ---------- 3. terminal: skills ----------
 rows = [("cloud", "IAM · Zero Trust · VPC / SG / NACL · AWS · Azure · CSA top threats"),
         ("dfir", "Evidence acquisition · Autopsy / TSK · Volatility · Windows &amp; Linux"),
-        ("grc", "ISO 27001 / 27005 · risk assessment · SoA · audit · NIST RMF"),
+        ("grc", "ISO 27001 / 27005 · risk assessment · SoA · audit · NIST RMF · STRIDE"),
         ("soc", "SIEM · Sigma · YARA · incident response (PICERL)"),
-        ("devsecops", "GitHub Actions · Jenkins · Docker · Snyk · GitGuardian · STRIDE · OWASP Top 10"),
+        ("devsecops", "GitHub Actions · Jenkins · Docker · SonarQube · OWASP ZAP · Trivy · Snyk · GitGuardian"),
         ("web", "MERN · MEAN · Next.js / TypeScript · Spring Boot · Symfony · Supabase (RLS)"),
         ("build", "Python · Java · C / C++ (Qt) · JavaScript · Git · Linux")]
 body = ""
