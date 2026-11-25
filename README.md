@@ -4,8 +4,8 @@
 
 <br><br>
 
-<a href="https://cloudsec-gamma.vercel.app"><img src="https://img.shields.io/badge/15_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=vercel&logoColor=22d3ee" alt="15 live platforms"></a>
-<img src="https://img.shields.io/badge/400%2B_QUIZ_QUESTIONS-0b1324?style=for-the-badge&logo=target&logoColor=818cf8" alt="400+ quiz questions">
+<a href="https://nidsexams.vercel.app"><img src="https://img.shields.io/badge/16_LIVE_PLATFORMS-0b1324?style=for-the-badge&logo=vercel&logoColor=22d3ee" alt="16 live platforms"></a>
+<img src="https://img.shields.io/badge/1300%2B_QUIZ_QUESTIONS-0b1324?style=for-the-badge&logo=target&logoColor=818cf8" alt="1300+ quiz questions">
 <img src="https://img.shields.io/badge/100%25_FREE_FOR_STUDENTS-0b1324?style=for-the-badge&logo=bookstack&logoColor=4ade80" alt="100% free">
 
 </div>
@@ -15,7 +15,7 @@
 ### `> whoami`
 
 I'm a **final-year Network & Information Security engineering student** working where **security engineering meets education**.
-I take the hardest modules of my curriculum — cloud security, digital forensics, ISO 27001 — and rebuild them as **free, interactive exam-preparation platforms**: clear courses, visual diagrams, a quiz after every chapter, timed mock exams and fully corrected answers.
+I take the hardest modules of my curriculum — cloud security, ethical hacking, digital forensics, ISO 27001 — and rebuild them as **free, interactive exam-preparation platforms**: clear courses, visual diagrams, a quiz after every chapter, timed mock exams and fully corrected answers.
 
 > *A good explanation beats a hundred slides. If one of my platforms saved you hours before an exam, it did its job.*
 
@@ -24,12 +24,13 @@ I take the hardest modules of my curriculum — cloud security, digital forensic
 ### `> ls ./platforms`
 
 <p align="center">
-<a href="https://nse4-fortigate.vercel.app"><img src="assets/card-nse4.svg" width="49%" alt="NSE4 FortiGate 7.2"></a>
-<a href="https://cloudsec-gamma.vercel.app"><img src="assets/card-cloudsec.svg" width="49%" alt="CloudSec"></a>
-<a href="https://digitalforensics.vercel.app"><img src="assets/card-forensics.svg" width="49%" alt="Digital Forensics"></a>
-<a href="https://iso27001-blue.vercel.app"><img src="assets/card-iso.svg" width="49%" alt="ISO 27001"></a>
-<a href="https://cpa-english.vercel.app"><img src="assets/card-english.svg" width="49%" alt="CPA English"></a>
-<a href="https://cpf-francais.vercel.app"><img src="assets/card-francais.svg" width="49%" alt="CPF Français"></a>
+<a href="https://nidsexams.vercel.app/ceh/"><img src="assets/card-ceh.svg" width="49%" alt="CEH Ethical Hacker"></a>
+<a href="https://nidsexams.vercel.app/nse4/"><img src="assets/card-nse4.svg" width="49%" alt="NSE4 FortiGate 7.2"></a>
+<a href="https://nidsexams.vercel.app/cloud/"><img src="assets/card-cloudsec.svg" width="49%" alt="CloudSec"></a>
+<a href="https://nidsexams.vercel.app/df/"><img src="assets/card-forensics.svg" width="49%" alt="Digital Forensics"></a>
+<a href="https://nidsexams.vercel.app/iso/"><img src="assets/card-iso.svg" width="49%" alt="ISO 27001"></a>
+<a href="https://nidsexams.vercel.app/en/"><img src="assets/card-english.svg" width="49%" alt="CPA English"></a>
+<a href="https://nidsexams.vercel.app/fr/"><img src="assets/card-francais.svg" width="49%" alt="CPF Français"></a>
 </p>
 
 ### `> ls ./more-study-tools`
