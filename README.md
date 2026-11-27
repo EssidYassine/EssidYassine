@@ -51,7 +51,7 @@ I take the hardest modules of my curriculum — cloud security, ethical hacking,
 
 <div align="center">
 
-`clear course` · `visual diagrams` · `quiz after each chapter` · `timed mock exams` · `corrected answers` · `Ctrl+K search` · `who is online` · `3D sidebar` · `mobile-ready` · `free` · `hosted on Vercel`
+`clear course` · `visual diagrams` · `quiz after each chapter` · `timed mock exams` · `corrected answers` · `Ctrl+K search` · `who is online` · `@esprit.tn account sign-in` · `3D sidebar` · `mobile-ready` · `free` · `hosted on Vercel`
 
 </div>
 
